@@ -1,6 +1,6 @@
-# Gerador de paleta de cores 🎨
+# Color Palette Generator 🎨
 
-Gerador de paletas de 5 de cores aleatórias com a função de travar a cor e copiar o código hexadecimal.
+Palette generator with 5 consulted cores with the function of locking the color and copying the hexadecimal code.
 
 link: https://windfox8.github.io/color-palette-generator/
 
