@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color Palette Generator</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,400;0,800;1,400&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/5b4f015aa1.js" crossorigin="anonymous"></script>
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="layout">
+        <header class="title">Color Palette<br>Generator</header>
+        <section class="containerBox">
+            <div class="elementsBox">
+                <button class="lockButton" onclick="changeIcon(this); toggleRandomColor(this);"><i id="lockIcon" class="fa-solid fa-lock-open fa-2xl" style="color: #ffffff;"></i></button>
+                <input class="inputColor colorGenerationToggle" type="color">
+                <input class="inputTextColor" type="text" value="#000000">
+            </div>
+            <div class="elementsBox">
+                <button class="lockButton" onclick="changeIcon(this); toggleRandomColor(this);"><i class="fa-solid fa-lock-open fa-2xl" style="color: #ffffff;"></i></button>
+                <input class="inputColor colorGenerationToggle" type="color">
+                <input class="inputTextColor" type="text" value="#000000">
+            </div>
+            <div class="elementsBox">
+                <button class="lockButton" onclick="changeIcon(this); toggleRandomColor(this);"><i class="fa-solid fa-lock-open fa-2xl" style="color: #ffffff;"></i></button>
+                <input class="inputColor colorGenerationToggle" type="color">
+                <input class="inputTextColor" type="text" value="#000000">
+            </div>
+            <div class="elementsBox">
+                <button class="lockButton" onclick="changeIcon(this); toggleRandomColor(this);"><i class="fa-solid fa-lock-open fa-2xl" style="color: #ffffff;"></i></button>
+                <input class="inputColor colorGenerationToggle" type="color">
+                <input class="inputTextColor" type="text" value="#000000">
+            </div>
+            <div class="elementsBox">
+                <button class="lockButton" onclick="changeIcon(this); toggleRandomColor(this);"><i class="fa-solid fa-lock-open fa-2xl" style="color: #ffffff;"></i></button>
+                <input class="inputColor colorGenerationToggle" type="color">
+                <input class="inputTextColor" type="text" value="#000000">
+            </div>
+        </section>
+        <br>
+        <button class="generateColorButton" onmouseover="setButtonColor(this)" onclick="setRandomColor()">GENERATE COLOR</button>
+        <br><br>
+        <footer class="footer">By <a href="https://github.com/WindFox8">Rafael Correr <i class="fa-brands fa-github" ></i></a></footer>
+     </div>   
+</body>
+</html>
